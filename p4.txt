@@ -7,7 +7,9 @@ android:layout_alignParentEnd="true" android:layout_alignParentBottom="true" and
 <Button
 android:id="@+id/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_alignParentBottom="true" android:layout_marginEnd="173dp" android:layout_marginBottom="189dp" android:text="Click Here To Change Wall Paper" android:textSize="26dp" />
 </RelativeLayout>
+
 JAVA-CODE
+
 import androidx.appcompat.app.AppCompatActivity; import android.app.WallpaperManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
